@@ -1,5 +1,6 @@
 {
   "name": "shadcloud",
+  "type": "module",
   "version": "0.0.1",
   "description": "Build your cloud modules",
   "main": "index.ts",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/michscho/shadcloud/issues"
   },
-  "homepage": "https://github.com/michscho/shadcloud#readme"
+  "homepage": "https://github.com/michscho/shadcloud#readme",
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
 }
